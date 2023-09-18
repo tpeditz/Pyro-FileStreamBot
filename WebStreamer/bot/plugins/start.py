@@ -44,7 +44,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/JoinOT).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/pw_lecture_request).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -66,7 +66,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/JoinOT).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/pw_lecture_request).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -74,8 +74,8 @@ async def start(b, m):
             text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/Discovery_Updates'), InlineKeyboardButton('Support Group', url='https://t.me/JoinOT')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')]
+                    [InlineKeyboardButton('Bots Channel', url='https://t.me/Idsp_bots'), InlineKeyboardButton('Support Group', url='https://t.me/pw_lecture_request')],
+                    [InlineKeyboardButton('Developer', url='https://t.me/Tp_Editz')]
                 ]
             ),
             disable_web_page_preview=True
@@ -87,7 +87,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/JoinOT).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/pw_lecture_request).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -103,7 +103,7 @@ async def start(b, m):
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh / Try Again",
-                                                     url=f"https://t.me/{(await b.get_me()).username}?start=AbirHasan2005_{usr_cmd}")
+                                                     url=f"https://t.me/{(await b.get_me()).username}?start=tp_editz{usr_cmd}")
                             ]
                         ]
                     ),
@@ -113,7 +113,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/JoinOT).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/pw_lecture_request).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
