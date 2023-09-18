@@ -151,7 +151,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/JoinOT).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/pw_lecture_request).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -173,7 +173,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/JoinOT).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/pw_lecture_request).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -183,8 +183,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"), InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
+                [InlineKeyboardButton("Support Group", url="https://t.me/pw_lecture_request"), InlineKeyboardButton("Bots Channel", url="https://t.me/Idsp_bots")],
+                [InlineKeyboardButton("Developer", url="https://t.me/Tp_Editz")]
             ]
         )
     )
